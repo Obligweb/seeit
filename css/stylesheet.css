@@ -3,14 +3,34 @@ body{
 }
 h1{
 padding-top: 30px;
+padding-left: 10px;
+}
 
-}
 h2{
-    padding-bottom: 30px;
+    padding-top: 40px;
 }
+
 h3{
     font-size: 20px;
+    font: ;
 }
-i{
+
+ul{
+
+}
+
+p1{
     font-size: 16px;
+    padding-left: 10px;
+    font-style: italic;
+}
+p2{
+    font-size: 16px;
+    padding-left: 10px;
+    font-style: italic;
+}
+p3{
+    font-size: 16px;
+    padding-left: 15px;
+    font-style: italic;
 }
