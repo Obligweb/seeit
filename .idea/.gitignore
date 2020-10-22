@@ -2,7 +2,11 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
+<<<<<<< HEAD
+/../../../../../:\Skole\Web\seeit\.idea/dataSources/
+=======
 /../../../../../../../../../:\Users\thoma\OneDrive\Dokumenter\Nettside\Frostborn\seeit\.idea/dataSources/
+>>>>>>> 895b8ac16b41b7ed5964d6fc26a87be1e0d419f4
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
