@@ -15,7 +15,7 @@ menu > div{
 }
 
 .top{
-
+    background: ghostwhite;
 }
 
 .main{
@@ -24,6 +24,7 @@ menu > div{
     grid-gap: 10px;
     padding-right: 30px;
     background: ghostwhite;
+    padding-bottom: 30px;
 
 }
 
@@ -43,6 +44,7 @@ menu > div{
     grid-gap: 30px;
     padding-right: 30px;
     padding-top: 15px;
+    background: ghostwhite;
 }
 
 .last > div{
