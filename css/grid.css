@@ -30,3 +30,13 @@ menu > div{
 .main > div:nth-child(even){
     background: whitesmoke;
 }
+@media (max-width: 1000px) {
+    header {
+        padding: 20px 50px;
+    }
+    section {
+        padding: 100px 50px;
+    }
+    @media (max-width: 700px) {
+
+        }
