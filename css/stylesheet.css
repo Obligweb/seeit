@@ -44,13 +44,15 @@ p3{
     padding-left: 15px;
     font-style: italic;
 }
-@media (max-width: 1000px) {
-    header {
-        padding: 20px 50px;
+@media (max-width: 800px) {
+    .main {
+    width: 80%;
+    Padding: 0;
     }
-    section {
-        padding: 100px 50px;
-    }
-    @media (max-width: 700px) {
+}
+@media only screen and (max-width: 500px) {
+    .main, .menu {
+        width: 100%; }
+}
 
-    }
+
