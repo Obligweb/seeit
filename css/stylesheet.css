@@ -38,3 +38,13 @@ p3{
     padding-left: 15px;
     font-style: italic;
 }
+@media (max-width: 1000px) {
+    header {
+        padding: 20px 50px;
+    }
+    section {
+        padding: 100px 50px;
+    }
+    @media (max-width: 700px) {
+
+    }
