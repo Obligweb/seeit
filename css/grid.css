@@ -20,6 +20,7 @@ menu > div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    padding-right: 30px;
 }
 
 .main > div:nth-child(odd){
@@ -29,6 +30,7 @@ menu > div{
 }
 .main > div:nth-child(even){
     background: whitesmoke;
+    padding: 10px;
 }
 @media (max-width: 1000px) {
     header {
