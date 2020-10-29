@@ -46,7 +46,7 @@ menu > div{
     grid-gap: 30px;
     padding-right: 30px;
     padding-top: 15px;
-    background: ghostwhite;
+    background: white;
 }
 
 .last > div{
@@ -57,7 +57,7 @@ menu > div{
     grid-template-columns: repeat(11, 1fr);
     grid-gap: 30px;
     padding-right: 30px;
-    padding-top: 15px;
+    padding-top: 55px;
     padding: 25px;
 }
 
