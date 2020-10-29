@@ -8,14 +8,16 @@
 
 .menu{
     display: grid;
-    background: ghostwhite;
+    background: white;
+    padding-top: 15px;
+    padding-left: 10px;
 }
 menu > div{
 
 }
 
 .top{
-    background: ghostwhite;
+    background: white;
 }
 
 .main{
@@ -23,7 +25,7 @@ menu > div{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     padding-right: 30px;
-    background: ghostwhite;
+    background: white;
     padding-bottom: 30px;
 
 }
