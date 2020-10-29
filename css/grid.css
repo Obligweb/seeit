@@ -3,12 +3,12 @@
     grid-template-columns: 1fr 5fr;
     grid-auto-rows: minmax(100px,auto);
     background: whitesmoke;
+    padding: 25px;
 }
 
 .menu{
-display: grid;
+    display: grid;
     background: ghostwhite;
-
 }
 menu > div{
 
@@ -56,7 +56,9 @@ menu > div{
     grid-gap: 30px;
     padding-right: 30px;
     padding-top: 15px;
+    padding: 25px;
 }
+
 .last > div:nth-child(even){
     background: whitesmoke;
     padding: 10px;
