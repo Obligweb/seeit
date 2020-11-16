@@ -11,6 +11,8 @@
     background: white;
     padding-top: 15px;
     padding-left: 10px;
+
+
 }
 
 .top{
@@ -36,6 +38,7 @@
     padding-right: 30px;
     background: white;
     padding-bottom: 30px;
+
 
 }
 
@@ -82,29 +85,54 @@
     grid-column-gap: 40px;
 }
 .img-div {
-    height: 250px;
-    width: 380px;
+    height: auto;
+    width: 100%;
 }
 
 
 @media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 320px) {
+    .main, .menu, .top, .last, .students, .final, .img-div, .main, .last {
+        width: 100%;
+    }
     .container{
 
     }
     .students{
         padding-left: 0px;
     }
-    .img-div {
+    .last{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .top{
         width: 100%;
     }
-
-}
-@media only screen and (max-width: 320px){
-
-    .students{
-        padding-left: 0px;
+    .last{
+        width: 100%;
     }
-    .img-div {
+    .menu{
+
+    }
+    .final{
+        display: -webkit-inline-flex;
+        text-align: -webkit-left;
+    }
+}
+@media (max-width: 800px) {
+    .main {
+        width: 80%;
+        Padding: 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    .container{
         width: 100%;
     }
 }

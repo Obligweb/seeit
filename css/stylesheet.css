@@ -39,15 +39,6 @@ a {
     font-size: 16px;
 }
 
-@media (max-width: 800px) {
-    .main {
-    width: 80%;
-    Padding: 0;
-    }
+last{
+    ;
 }
-@media only screen and (max-width: 500px) {
-    .main, .menu {
-        width: 100%; }
-}
-
-
